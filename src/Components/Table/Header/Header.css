@@ -1,0 +1,35 @@
+.header-root {
+  display: flex;
+  flex-direction: row;
+  background-color: #151522;
+  border-radius: 5px 5px 0px 0px;
+  position: sticky;
+  top: 0;
+  width: 80vw;
+  min-width: 1050px;
+}
+
+.sections-container,
+.tags {
+  display: flex;
+  margin: 15px 0px;
+  height: 50px;
+}
+
+.tags {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+}
+.sections-container {
+  flex-direction: row;
+  flex: 4;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+  padding-left: 10px;
+}
